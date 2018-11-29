@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		9231D43C2199D11A00186531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D43B2199D11A00186531 /* AppDelegate.swift */; };
-		9231D43E2199D11A00186531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D43D2199D11A00186531 /* ViewController.swift */; };
 		9231D4412199D11A00186531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9231D43F2199D11A00186531 /* Main.storyboard */; };
 		9231D4432199D11D00186531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9231D4422199D11D00186531 /* Assets.xcassets */; };
 		9231D4462199D11D00186531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9231D4442199D11D00186531 /* LaunchScreen.storyboard */; };
+		9231D44F2199D38500186531 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D44E2199D38500186531 /* MapViewController.swift */; };
+		9231D4512199D3C600186531 /* EnseignesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D4502199D3C600186531 /* EnseignesListViewController.swift */; };
+		9231D4542199D45B00186531 /* Salle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D4532199D45B00186531 /* Salle.swift */; };
+		9231D4562199D53600186531 /* Enseigne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D4552199D53600186531 /* Enseigne.swift */; };
+		9231D45B2199D69600186531 /* EnseigneRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D45A2199D69600186531 /* EnseigneRepository.swift */; };
+		9231D45F2199E4CD00186531 /* EnseigneDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231D45E2199E4CD00186531 /* EnseigneDetailsViewController.swift */; };
+		92E6E5D521B02464003E6B52 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E6E5D421B02464003E6B52 /* Coordinates.swift */; };
+		B2A7A90F957B748EFD61A273 /* SalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7A631B393171308A73A47 /* SalleViewController.swift */; };
+		B2A7AB5879B517F5EE5694B4 /* EnseigneAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A7A03A242C2B4C0B7A208F /* EnseigneAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9231D4382199D11A00186531 /* tp_espace_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tp_espace_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9231D4382199D11A00186531 /* tp_escape_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tp_escape_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9231D43B2199D11A00186531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9231D43D2199D11A00186531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9231D4402199D11A00186531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9231D4422199D11D00186531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9231D4452199D11D00186531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9231D4472199D11D00186531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9231D44E2199D38500186531 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9231D4502199D3C600186531 /* EnseignesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnseignesListViewController.swift; sourceTree = "<group>"; };
+		9231D4532199D45B00186531 /* Salle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salle.swift; sourceTree = "<group>"; };
+		9231D4552199D53600186531 /* Enseigne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enseigne.swift; sourceTree = "<group>"; };
+		9231D45A2199D69600186531 /* EnseigneRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnseigneRepository.swift; sourceTree = "<group>"; };
+		9231D45E2199E4CD00186531 /* EnseigneDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnseigneDetailsViewController.swift; sourceTree = "<group>"; };
+		92E6E5D421B02464003E6B52 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		B2A7A03A242C2B4C0B7A208F /* EnseigneAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnseigneAnnotation.swift; sourceTree = "<group>"; };
+		B2A7A631B393171308A73A47 /* SalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +54,7 @@
 		9231D42F2199D11A00186531 = {
 			isa = PBXGroup;
 			children = (
-				9231D43A2199D11A00186531 /* tp_espace_game */,
+				9231D43A2199D11A00186531 /* tp_escape_game */,
 				9231D4392199D11A00186531 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +62,86 @@
 		9231D4392199D11A00186531 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9231D4382199D11A00186531 /* tp_espace_game.app */,
+				9231D4382199D11A00186531 /* tp_escape_game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9231D43A2199D11A00186531 /* tp_espace_game */ = {
+		9231D43A2199D11A00186531 /* tp_escape_game */ = {
 			isa = PBXGroup;
 			children = (
+				9231D4592199D68100186531 /* repositories */,
+				9231D4522199D3EF00186531 /* models */,
+				9231D44D2199D36200186531 /* viewControllers */,
 				9231D43B2199D11A00186531 /* AppDelegate.swift */,
-				9231D43D2199D11A00186531 /* ViewController.swift */,
 				9231D43F2199D11A00186531 /* Main.storyboard */,
 				9231D4422199D11D00186531 /* Assets.xcassets */,
 				9231D4442199D11D00186531 /* LaunchScreen.storyboard */,
 				9231D4472199D11D00186531 /* Info.plist */,
 			);
-			path = tp_espace_game;
+			path = tp_escape_game;
+			sourceTree = "<group>";
+		};
+		9231D44D2199D36200186531 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9231D45D2199DA9000186531 /* map */,
+				9231D45C2199DA7E00186531 /* enseignes */,
+				B2A7AFE6C9EB065F028AA12E /* salles */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		9231D4522199D3EF00186531 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9231D4532199D45B00186531 /* Salle.swift */,
+				9231D4552199D53600186531 /* Enseigne.swift */,
+				B2A7A03A242C2B4C0B7A208F /* EnseigneAnnotation.swift */,
+				92E6E5D421B02464003E6B52 /* Coordinates.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9231D4592199D68100186531 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9231D45A2199D69600186531 /* EnseigneRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		9231D45C2199DA7E00186531 /* enseignes */ = {
+			isa = PBXGroup;
+			children = (
+				9231D4502199D3C600186531 /* EnseignesListViewController.swift */,
+				9231D45E2199E4CD00186531 /* EnseigneDetailsViewController.swift */,
+			);
+			path = enseignes;
+			sourceTree = "<group>";
+		};
+		9231D45D2199DA9000186531 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				9231D44E2199D38500186531 /* MapViewController.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		B2A7AFE6C9EB065F028AA12E /* salles */ = {
+			isa = PBXGroup;
+			children = (
+				B2A7A631B393171308A73A47 /* SalleViewController.swift */,
+			);
+			path = salles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9231D4372199D11A00186531 /* tp_espace_game */ = {
+		9231D4372199D11A00186531 /* tp_escape_game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9231D44A2199D11D00186531 /* Build configuration list for PBXNativeTarget "tp_espace_game" */;
+			buildConfigurationList = 9231D44A2199D11D00186531 /* Build configuration list for PBXNativeTarget "tp_escape_game" */;
 			buildPhases = (
 				9231D4342199D11A00186531 /* Sources */,
 				9231D4352199D11A00186531 /* Frameworks */,
@@ -79,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = tp_espace_game;
-			productName = tp_espace_game;
-			productReference = 9231D4382199D11A00186531 /* tp_espace_game.app */;
+			name = tp_escape_game;
+			productName = tp_escape_game;
+			productReference = 9231D4382199D11A00186531 /* tp_escape_game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9231D4332199D11A00186531 /* Build configuration list for PBXProject "tp_espace_game" */;
+			buildConfigurationList = 9231D4332199D11A00186531 /* Build configuration list for PBXProject "tp_escape_game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9231D4372199D11A00186531 /* tp_espace_game */,
+				9231D4372199D11A00186531 /* tp_escape_game */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9231D43E2199D11A00186531 /* ViewController.swift in Sources */,
+				9231D4512199D3C600186531 /* EnseignesListViewController.swift in Sources */,
+				9231D45B2199D69600186531 /* EnseigneRepository.swift in Sources */,
 				9231D43C2199D11A00186531 /* AppDelegate.swift in Sources */,
+				9231D44F2199D38500186531 /* MapViewController.swift in Sources */,
+				9231D4562199D53600186531 /* Enseigne.swift in Sources */,
+				9231D45F2199E4CD00186531 /* EnseigneDetailsViewController.swift in Sources */,
+				9231D4542199D45B00186531 /* Salle.swift in Sources */,
+				B2A7A90F957B748EFD61A273 /* SalleViewController.swift in Sources */,
+				B2A7AB5879B517F5EE5694B4 /* EnseigneAnnotation.swift in Sources */,
+				92E6E5D521B02464003E6B52 /* Coordinates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +361,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tp_espace_game/Info.plist;
+				INFOPLIST_FILE = tp_escape_game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dream.tp-espace-game";
+				PRODUCT_BUNDLE_IDENTIFIER = "dream.tp-escape-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +378,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tp_espace_game/Info.plist;
+				INFOPLIST_FILE = tp_escape_game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dream.tp-espace-game";
+				PRODUCT_BUNDLE_IDENTIFIER = "dream.tp-escape-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +393,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9231D4332199D11A00186531 /* Build configuration list for PBXProject "tp_espace_game" */ = {
+		9231D4332199D11A00186531 /* Build configuration list for PBXProject "tp_escape_game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9231D4482199D11D00186531 /* Debug */,
@@ -322,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9231D44A2199D11D00186531 /* Build configuration list for PBXNativeTarget "tp_espace_game" */ = {
+		9231D44A2199D11D00186531 /* Build configuration list for PBXNativeTarget "tp_escape_game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9231D44B2199D11D00186531 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tp_espace_game.xcodeproj">
+      location = "self:tp_escape_game.xcodeproj">
    </FileRef>
 </Workspace>
